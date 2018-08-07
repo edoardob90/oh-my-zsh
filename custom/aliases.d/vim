@@ -1,0 +1,5 @@
+#!/bin/bash
+# VIM/Neovim aliases
+# EDITOR and VISUAL env vars are set in ~/.dotfiles/zshrc
+alias vi=nvim
+alias vim=nvim
