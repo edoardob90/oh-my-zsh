@@ -5,6 +5,10 @@ if uname | grep -q 'Darwin'; then
     deneb_cluster () {
         ssh -Y -F "${HOME}/.ssh/config" deneb${1:-1}
     }
+
+    # ls
+    alias ls='ls -G --color=auto'
+    alias lls='ls -lart'
     
     # Safe rm
     alias rm='rm -i'
